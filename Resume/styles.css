@@ -1,0 +1,98 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #fff;
+    color: #2c3e50;
+    line-height: 1.6;
+    margin: 0;
+    padding: 2rem;
+  }
+  
+  .cv-container {
+    max-width: 960px;
+    margin: auto;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .name {
+    font-family: 'Crimson Text', serif;
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  
+  .title {
+    font-size: 1.25rem;
+    font-style: italic;
+    color: #7f8c8d;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-info {
+    font-size: 0.95rem;
+    color: #34495e;
+  }
+  
+  .section {
+    margin-bottom: 2.5rem;
+  }
+  
+  .section-title {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+  
+  .item-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .item-title {
+    font-weight: 700;
+  }
+  
+  .item-subtitle {
+    font-style: italic;
+    color: #34495e;
+  }
+  
+  .item-date-location {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+  }
+  
+  .achievements li {
+    margin-left: 1.5rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  .grid-interests {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.75rem;
+  }
+  
+  .interest-item {
+    background: #f8f9fa;
+    padding: 0.5rem;
+    border-left: 3px solid #34495e;
+  }
+  .interest-item {
+    background: #f8f9fa;
+    padding: 0.5rem 0.75rem;
+    border-left: 3px solid #34495e;
+    transition: background 0.3s, color 0.3s;
+    cursor: default;
+  }
+  
+  .interest-item:hover {
+    background: #34495e;
+    color: white;
+  }
